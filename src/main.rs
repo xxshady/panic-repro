@@ -4,15 +4,15 @@ include_cpp! {
 
     name!(repro)
 
-    generate!("IBaseObject")
+    generate!("Repro")
 }
 
-pub type Repro = repro::IBaseObject;
+pub type Repro = repro::Repro;
 
 fn repro() -> Repro {
     todo!()
 }
 
 fn main() {
-    let a = repro();
+    let _repro = repro();
 }

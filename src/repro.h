@@ -1,7 +1,7 @@
 #pragma once
 
-class IBaseObject
+class Repro
 {
 public:
-    virtual bool IsRemoved() const = 0;
+    virtual bool repro() const = 0;
 };
